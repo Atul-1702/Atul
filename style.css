@@ -1,0 +1,68 @@
+.master
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;   
+    margin-top: 2%;
+}
+.whitebox
+{
+    width:220px;
+    height:650px;
+    border:5px solid blue;
+    
+}
+.imgbox
+{
+    height:200px;
+    width:200px;
+    margin: 5px;
+    display: block;
+    border:2px solid salmon;
+    cursor: pointer;
+
+}
+.containerbox
+{
+    height:220px;
+    width:220px;
+    border:5px solid blue;
+    position: relative;
+    top:200px;
+}
+.startdrag
+{
+    border:5px solid goldenrod;
+}
+.hide
+{
+    display: none;
+}
+.enterdrag
+{
+    border:5px green;
+    border-style:dashed;
+}
+#msg
+{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: larger;
+} 
+body
+{
+    background-color:whitesmoke;
+}
+button
+{
+    display: block;
+    margin: auto;
+    font-size: larger;
+    font-weight: bolder;
+    padding:6px;
+    background-color: blue;
+    color:white;
+    margin-bottom: 5px;
+
+}
